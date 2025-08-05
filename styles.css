@@ -1,4 +1,11 @@
 /*  your css code here. If applicable */
 table{
-	background-color:yellow
+	background-color:yellow;
+	border:2px
+	border-collapse:collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
 }
