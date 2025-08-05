@@ -1,11 +1,23 @@
-/*  your css code here. If applicable */
-table{
-	background-color:yellow;
-	border:1px
-	border-collapse:collapse;
+/* Apply overall table styles */
+table {
+  background-color: yellow;
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+  font-weight: bold;
 }
 
+/* Style for table headers and cells */
 th, td {
-  border: 1px solid black;
-  padding: 8px;
+  border: 2px solid black;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Style for the caption */
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
